@@ -77,4 +77,4 @@ jobs:
                   JOY_TEAM_LEVEL: ${{ github.event.client_payload.JOY_TEAM_LEVEL || secrets.JOY_TEAM_LEVEL }}
                   SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jo/jd_joy.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
-                  BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  JOY_RUN_HELP_MYSELF: ${{ github.event.client_payload.JOY_RUN_HELP_MYSELF || secrets.JOY_RUN_HELP_MYSELF }}
