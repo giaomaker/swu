@@ -75,4 +75,4 @@ jobs:
                   JDZZ_SHARECODES: ${{ github.event.client_payload.JDZZ_SHARECODES || secrets.JDZZ_SHARECODES }}
                   SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jo/jd_jdzz.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
-                  BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  JDZZ_NOTIFY_CONTROL: ${{ github.event.client_payload.JDZZ_NOTIFY_CONTROL || secrets.JDZZ_NOTIFY_CONTROL }}
