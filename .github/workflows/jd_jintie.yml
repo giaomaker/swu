@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}
+          #token: ${{ secrets.PAT }}
           repository: ${{ secrets.REPO }}
           ref: ${{ secrets.REF }}
       - name: Use Node.js ${{ matrix.node-version }}
