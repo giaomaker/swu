@@ -1,13 +1,13 @@
-name: Kiee_京小兑d
+name: 东东乐园
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0,8,12 * * *'
+    - cron: '0 2 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: jd_jxd.js
+    types: jd_ddnc_farmpark.js
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +17,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ${{ secrets.REPO }}
-          ref: ${{ secrets.REF }}
+          #ref: ${{ secrets.REF }}
+          ref: main
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -34,7 +35,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
-          node jd_jxd.js
+          node jd_ddnc_farmpark.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
