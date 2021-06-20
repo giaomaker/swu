@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: ph_我是大老板农场(内测)
+name: ph_我是大老板农场
 on:
   workflow_dispatch:
   schedule:
@@ -19,10 +19,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}
-          repository: ys6666/ph
-          #ref: ${{ secrets.REF }}
-          ref: main
+          #token: ${{ secrets.PAT }}
+          repository: ${{ secrets.REPO }}
+          ref: ${{ secrets.REF }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -39,6 +38,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_wsdlb.js -o jd_wsdlb.js
           node jd_wsdlb.js
           
         env:
