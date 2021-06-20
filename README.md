@@ -6,7 +6,7 @@ no1gc1 : https://github.com/no1gc1/acdog
 
 jo : https://github.com/a01191/dog.git
 
-wulove : https://github.com/wulove/my_scripts/tree/master
+shuye : https://github.com/wuzhi04/MyActions.git
 
 Weoux : https://github.com/Wenmoux/scripts
 
