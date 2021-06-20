@@ -17,8 +17,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ${{ secrets.REPO }}
-          #ref: ${{ secrets.REF }}
-          ref: main
+          ref: ${{ secrets.REF }}
+          
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -34,7 +34,8 @@ jobs:
         run: |
           npm install
       - name: '运行 【app】'
-        run: |
+        run: | 
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_ddnc_farmpark.js -o jd_ddnc_farmpark.js
           node jd_ddnc_farmpark.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
