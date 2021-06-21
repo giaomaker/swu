@@ -6,9 +6,9 @@ name: Kiee_店铺签到（失效）
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 18 * * *'
+    - cron: '2 17,13 * * *'
   repository_dispatch:
-    types: jd_dpqd
+    types: jd_necklace
 jobs:
   build:
 
@@ -26,13 +26,8 @@ jobs:
           npm install
      - name: '运行 【店铺签到】'
        run: |
-          curl https://raw.githubusercontent.com/seamly888/Alie/jo/jd_dpqd.js -o jd_dpqd.js
-          node jd_dpqd.js
-          #curl https://raw.githubusercontent.com/1483615512/jd28/master/jd_dpqd2.js -o jd_dpqd2.js
-          #node jd_dpqd2.js
-          curl https://raw.githubusercontent.com/seamly888/Alie/jo/jd_shop_sign.js -o jd_shop_sign.js
-          node jd_shop_sign.js
-          
+          curl https://raw.githubusercontent.com/seamly888/Alie/jo/jd_necklace.js -o jd_necklace.js
+          node jd_necklace.js
           
        env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
