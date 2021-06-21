@@ -2,16 +2,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 京东到家
+name: 京东到家-果园任务
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "10 23,3,9 * * *"
+        - cron: "10 16,23,3,9 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_daojia.js
+        types: jddj_fruit.js
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -47,6 +47,6 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
-                  SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/main/jd_daojia.js
+                  SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jddj/jddj_fruit.js
                   REPOURL: https://raw.githubusercontent.com/seamly888/Alie/JD-Shylocks/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
