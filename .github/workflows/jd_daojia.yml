@@ -7,7 +7,7 @@ name: 京东到家
 on:
     workflow_dispatch:
     schedule:
-        - cron: "10 3,23,3,9 * * *"
+        - cron: "10 23,3,9 * * *"
     watch:
         types: [started]
     repository_dispatch:
