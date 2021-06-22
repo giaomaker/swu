@@ -1,6 +1,6 @@
 # Littt
 
-lxk0309 ： https://github.com/chinnkarahoi/jd_scripts
+HelloWorld ： https://github.com/JDHelloWorld/jd_scripts.git
 
 no1gc1 : https://github.com/no1gc1/acdog
 
