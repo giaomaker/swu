@@ -3,7 +3,7 @@ name: 京东十元街(赚京豆)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 16,22,13 * * *'
+    - cron: '12 16,21,3,13 * * *'
   watch:
     types: started
   repository_dispatch:
