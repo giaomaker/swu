@@ -1,4 +1,4 @@
-name: 领现金new
+name: 签到领现金new
 
 on:
   workflow_dispatch:
