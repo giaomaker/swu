@@ -6,7 +6,7 @@ name: 京享值PK(截至7月21号)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 23,13,16,5 * 7 *'
+    - cron: '42 3,13,6 * 7 *'
   watch:
     types: started
   repository_dispatch:
