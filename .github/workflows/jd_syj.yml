@@ -17,7 +17,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: ${{ secrets.REPO }}
-          ref: ${{ secrets.REF }}
+          #ref: ${{ secrets.REF }}
+          ref: dust
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
