@@ -1,4 +1,4 @@
-name: 京东十元街(赚京豆)
+name: 京东十元街+组团互助(赚京豆)
 
 on:
   workflow_dispatch:
@@ -32,7 +32,15 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【app】'
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: '互助'
+        run: |
+              curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_syj_zt.py -o jd_syj_zt.py
+              python3 jd_syj_zt.py
+      - name: '运行 【京东十元街】'
         run: |
           curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_syj.js -o jd_syj.js
           node jd_syj.js
