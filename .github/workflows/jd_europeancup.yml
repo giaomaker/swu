@@ -1,4 +1,4 @@
-name: A临时_欧洲狂欢杯(第二阶段截至7月12号)
+name: 1A临时_欧洲狂欢杯(第二阶段截至7月12号)
 
 on:
     workflow_dispatch:
