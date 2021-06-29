@@ -2,10 +2,6 @@
 
 HelloWorld ： https://github.com/JDHelloWorld/jd_scripts.git
 
-no1gc1 : https://github.com/no1gc1/acdog
-
-jo : https://github.com/a01191/dog.git
-
 shuye : https://github.com/wuzhi04/MyActions.git
 
 Weoux : https://github.com/Wenmoux/scripts
