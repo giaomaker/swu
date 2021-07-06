@@ -4,6 +4,8 @@ HelloWorld ： https://github.com/JDHelloWorld/jd_scripts.git
 
 shuye : https://github.com/wuzhi04/MyActions.git
 
+cdle ： https://github.com/cdle/jd_study.git
+
 Weoux : https://github.com/Wenmoux/scripts
 
 zoo动物园 : https://github.com/zooPanda/zoo
