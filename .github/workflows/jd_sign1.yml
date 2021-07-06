@@ -3,7 +3,7 @@ name: Kiee_京东每日签到
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 15 * * *'
+    - cron: '59 15,20 * * *'
   watch:
     types: started
   repository_dispatch:
