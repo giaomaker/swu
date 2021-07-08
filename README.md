@@ -10,6 +10,8 @@ yuannian : https://github.com/yuannian1112/jd_scripts.git
 
 cdle ： https://github.com/cdle/jd_study.git
 
+simek : https://github.com/smiek2221/scripts.git
+
 Weoux : https://github.com/Wenmoux/scripts
 
 zoo动物园 : https://github.com/zooPanda/zoo
