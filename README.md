@@ -14,13 +14,7 @@ simek : https://github.com/smiek2221/scripts.git
 
 Weoux : https://github.com/Wenmoux/scripts
 
-zoo动物园 : https://github.com/zooPanda/zoo
-
-hyzaw : https://github.com/hyzaw/scripts.git
-
 panghu : https://github.com/panghu999/panghu.git
-
-Ariszy : https://github.com/Ariszy/Private-Script.git
 
 龙王 : https://github.com/longzhuzhu/nianyu
 
