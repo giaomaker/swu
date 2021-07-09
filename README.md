@@ -8,6 +8,8 @@ songyangzz ：https://github.com/songyangzz/jd_scripts
 
 yuannian : https://github.com/yuannian1112/jd_scripts.git
 
+faker2 : https://github.com/shufflewzc/faker2.git
+
 cdle ： https://github.com/cdle/jd_study.git
 
 simek : https://github.com/smiek2221/scripts.git
