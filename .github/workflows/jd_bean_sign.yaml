@@ -1,4 +1,4 @@
-name: Kiee_京东每日签到+图形验证
+name: Kiee_京东每日签到
 
 on:
   workflow_dispatch:
@@ -35,7 +35,6 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_bean_sign.js
-          node jd_sign1.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
