@@ -1,13 +1,13 @@
-name: Kiee_京东每日签到
+name: Kiee_京东每日签到faker2
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 15,21 * * *'
+    - cron: '59 22 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: jd_sign1
+    types: jd_bean_sign_faker.js
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
-          node jd_sign1.js
+          node jd_bean_sign_faker.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
