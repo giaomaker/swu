@@ -75,4 +75,4 @@ jobs:
                   SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jo/jd_jdfactory.js
                   #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-                  JDFACTORY_FORBID_ACCOUNT: ${{ github.event.client_payload.JDFACTORY_FORBID_ACCOUNT || secrets.JDFACTORY_FORBID_ACCOUNT }} #京东工厂禁用某些cookie的执行,因为通知太烦了呀,比如要禁用第2和第四个的执行,则填入[2,4]即可,包含中括号哦
+                  JDFACTORY_FORBID_ACCOUNT: ${{ github.event.client_payload.JDFACTORY_FORBID_ACCOUNT || secrets.JDFACTORY_FORBID_ACCOUNT }} #京东工厂禁用某些cookie的执行,因为通知太烦了呀,比如要禁用第2和第四个的执行,则填入2&4即可,包含中括号哦
