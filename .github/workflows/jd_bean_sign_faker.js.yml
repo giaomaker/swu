@@ -3,7 +3,7 @@ name: Kiee_京东每日签到faker2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 22 * * *'
+    - cron: '59 16 * * *'
   watch:
     types: started
   repository_dispatch:
