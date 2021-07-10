@@ -6,7 +6,7 @@ name: 京东极速版-汪汪乐园-每日任务
 on:
     workflow_dispatch:
     schedule:
-        - cron: "10 */3 * * *"
+        - cron: "17 23,1,9,12 * * *"
     watch:
         types: [started]
     repository_dispatch:
