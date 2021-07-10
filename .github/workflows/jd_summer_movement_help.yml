@@ -34,7 +34,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
-          curl https://raw.githubusercontent.com/seamly888/Alie/master/jd_summer_movement_help.js -o jd_summer_movement_help.js
+          #curl https://raw.githubusercontent.com/seamly888/Alie/master/jd_summer_movement_help.js -o jd_summer_movement_help.js
           node jd_summer_movement_help.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
