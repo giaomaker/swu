@@ -26,7 +26,6 @@ jobs:
           npm install
      - name: '运行 【app】'
        run: |
-          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_necklace.js -o jd_necklace.js
           node jd_necklace.js
           
        env:
