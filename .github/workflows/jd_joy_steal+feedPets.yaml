@@ -33,9 +33,9 @@ jobs:
         run: |
           npm install
       - name: '运行 【app】'
-        run: |
-          node jd_joy_feedPets.js
+        run: | 
           node jd_joy_steal.js
+          node jd_joy_feedPets.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
