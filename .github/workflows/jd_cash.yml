@@ -38,7 +38,6 @@ jobs:
           node jd_cash_new.js
           curl https://raw.githubusercontent.com/seamly888/Alie/jo/jd_cash.js -o jd_cash.js
           node jd_cash.js
-          node jd_angryCash.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
