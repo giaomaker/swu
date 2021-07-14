@@ -47,5 +47,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
                   #SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/main/jd_angryKoi.js
-                  SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jo/jd_cfd_loop.js
+                  SYNCURL: https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_angryKoi.js
                   KOIS: ${{ github.event.client_payload.KOIS || secrets.KOIS }}
