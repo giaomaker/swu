@@ -7,7 +7,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: jd_sign1
+    types: jd_sign_graphics
 jobs:
   build:
     runs-on: ubuntu-latest
