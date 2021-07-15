@@ -34,6 +34,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
+          node jd_sign_graphics.js
           node jd_sign1.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
