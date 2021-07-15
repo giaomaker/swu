@@ -50,4 +50,5 @@ jobs:
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           JDCFD_SHARECODES: ${{ secrets.JDCFD_SHARECODES }}
           HELP_AUTHOR: ${{ secrets.HELP_AUTHOR }}
+          HELPAUTHORFLAG: ${{ secrets.HELPAUTHORFLAG }}
           CFD_NOTIFY_CONTROL: ${{ secrets.CFD_NOTIFY_CONTROL }}
