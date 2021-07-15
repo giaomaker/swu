@@ -3,11 +3,11 @@ name: Kiee_京东每日签到-图形验证
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 16,20,11 * * *'
+    - cron: '37 16,20 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: jd_sign_graphics
+    types: jd_sign
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,6 +34,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
+          node jd_sign.js
           node jd_sign_graphics.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
