@@ -14,7 +14,7 @@ cdle ： https://github.com/cdle/jd_study.git
 
 simek : https://github.com/smiek2221/scripts.git
 
-Weoux : https://github.com/Wenmoux/scripts
+Weoux : https://github.com/Wenmoux/scripts/tree/wen
 
 panghu : https://github.com/panghu999/panghu.git
 
