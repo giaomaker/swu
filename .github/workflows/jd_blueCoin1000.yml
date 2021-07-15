@@ -6,7 +6,7 @@ name: Me_京小超领蓝币兑换20(hajiu无延迟版)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 15 * * *'
+    - cron: '49 15 * * *'
   watch:
     types: started
   repository_dispatch:
