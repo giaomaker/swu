@@ -51,5 +51,6 @@ jobs:
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           HELP_AUTHOR: ${{ secrets.HELP_AUTHOR }}
+          HELPAUTHORFLAG: ${{ secrets.HELPAUTHORFLAG }}
           JD_CASH_SHARECODES: ${{ secrets.JD_CASH_SHARECODES }}
           CASH_EXCHANGE: ${{ secrets.CASH_EXCHANGE }}
