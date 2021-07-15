@@ -35,7 +35,6 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_sign1.js
-          node jd_sign_graphics.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
