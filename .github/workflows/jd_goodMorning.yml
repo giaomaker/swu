@@ -36,8 +36,6 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js -o jd_goodMorning.js
           node jd_goodMorning.js
-          curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js -o jd_morningSc.js
-          node jjd_morningSc.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
