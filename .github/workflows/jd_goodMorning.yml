@@ -1,9 +1,9 @@
-name: 1早起福利+特务+愤怒鲤鱼
+name: 1早起福利+早起赢现金+特务
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 22 * * *'
+    - cron: '22 22 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -36,9 +36,10 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js -o jd_goodMorning.js
           node jd_goodMorning.js
-          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_twjs
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_tw.js
           node jd_tw.js
-          node jd_angryKoi.js
+          curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js -o jd_morningSc.js
+          node jd_morningSc.js 
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
