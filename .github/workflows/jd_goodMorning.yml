@@ -1,4 +1,4 @@
-name: 1早起福利+特务
+name: 1早起福利+特务+愤怒鲤鱼
 
 on:
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
           node jd_goodMorning.js
           curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_twjs
           node jd_tw.js
-          
+          node jd_angryKoi.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
