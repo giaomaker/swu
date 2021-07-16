@@ -1,4 +1,4 @@
-name: 1早起福利+赢现金
+name: 1早起福利+特务
 
 on:
   workflow_dispatch:
@@ -36,6 +36,9 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js -o jd_goodMorning.js
           node jd_goodMorning.js
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_twjs
+          node jd_tw.js
+          
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
