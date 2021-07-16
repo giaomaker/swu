@@ -35,8 +35,8 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: | 
-          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_ddnc_farmpark.js -o jd_ddnc_farmpark.js
           node jd_ddnc_farmpark.js
+          
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
