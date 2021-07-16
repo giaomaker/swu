@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 1京东-愤怒的锦鲤
+name: 1省钱(发财)大赢家
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "56 19 * * *"
+        - cron: "4 16,17 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_angryKoi
+        types: jd_sqdyj
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -46,6 +46,6 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
-                  #SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/main/jd_angryKoi.js
+                  #SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/jo/jd_sqdyj.js
                   SYNCURL: https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_angryKoi.js
                   KOIS: ${{ github.event.client_payload.KOIS || secrets.KOIS }}
