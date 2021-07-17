@@ -5,7 +5,7 @@ const zlib = require('zlib');
 const vm = require('vm');
 const PNG = require('png-js');
 let UA = require('../USER_AGENTS.js').USER_AGENT;
-const validatorCount = process.env.JDJR_validator_Count ? process.env.JDJR_validator_Count : 100
+const validatorCount = process.env.JDJR_validator_Count ? process.env.JDJR_validator_Count : 25
 
 
 Math.avg = function average() {
