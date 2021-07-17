@@ -3,11 +3,11 @@ name: 东东超市兑换py
 on:
     workflow_dispatch:
     schedule:
-        - cron: "56 15* * *"
+        - cron: "56 15 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_blueCoin
+        types: jd_blueCoin.py
 
 jobs:
     build:
