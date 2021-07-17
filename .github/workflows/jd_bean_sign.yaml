@@ -34,7 +34,8 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
-          node jd_bean_sign.js
+          node JD_DailyBonus.js
+          #node jd_bean_sign.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
