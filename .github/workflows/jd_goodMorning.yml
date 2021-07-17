@@ -36,8 +36,8 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js -o jd_goodMorning.js
           node jd_goodMorning.js
-          curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js -o jd_morningSc.js
-          node jd_morningSc.js 
+          #curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js -o jd_morningSc.js
+          #node jd_morningSc.js 
           #curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_tw.js
           #node jd_tw.js
         env:
