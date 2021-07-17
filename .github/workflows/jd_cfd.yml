@@ -35,7 +35,7 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_cfd.js
-          node jd_cfd_loop.js
+          
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
