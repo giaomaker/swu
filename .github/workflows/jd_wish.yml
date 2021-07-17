@@ -1,4 +1,4 @@
-name: Kiee_京东众筹许愿池+来客有礼送豆
+name: Kiee_京东众筹许愿池
 
 on:
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_wish.js
-          node jd_senbeans.js
+          
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
