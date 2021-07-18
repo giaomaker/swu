@@ -1,4 +1,4 @@
-name: 京东宠汪汪换20豆
+name: 京东宠汪汪兑换20豆(songyangzz版)
 on:
   workflow_dispatch:
   schedule:
