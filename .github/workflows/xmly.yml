@@ -1,4 +1,4 @@
-name: 领现金py
+name: 喜马拉雅极速版
 
 on:
     workflow_dispatch:
