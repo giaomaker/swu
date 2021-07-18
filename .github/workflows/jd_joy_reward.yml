@@ -1,4 +1,4 @@
-name: Me_宠汪汪换20豆
+name: 宠汪汪换20豆
 on:
   workflow_dispatch:
   schedule:
