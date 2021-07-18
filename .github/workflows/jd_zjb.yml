@@ -1,4 +1,4 @@
-name: 京东极速版-赚金币
+name: 京东极速版-赚金币+加速提现
 
 on:
   workflow_dispatch:
