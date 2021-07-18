@@ -2,7 +2,7 @@ name: 京东宠汪汪兑换20豆(songyangzz版)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 7 * * *'
+    - cron: '58 7 * * *'
   watch:
     types: started
   repository_dispatch:
