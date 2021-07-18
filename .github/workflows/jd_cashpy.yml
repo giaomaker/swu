@@ -1,4 +1,4 @@
-name: 喜马拉雅极速版
+name: 领现金py
 
 on:
     workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_blueCoin.py
+        types: jd_cash.py
 
 jobs:
     build:
@@ -26,7 +26,7 @@ jobs:
               run: pip install -r ./requirements.txt
 
             - name: "运行 app"
-              run: python3 jd_blueCoin.py
+              run: python3 jd_cash.py
               env:
                   A: ${{ github.event.client_payload.A || secrets.A }}
                   B: ${{ github.event.client_payload.B || secrets.B }}
@@ -71,4 +71,4 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: https://raw.githubusercontent.com/curtinlv/JD-Script/main/jd_blueCoin.py
+                  SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/main/jd_cash.py
