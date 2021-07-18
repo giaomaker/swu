@@ -43,7 +43,7 @@ jobs:
       - name: 'app'
         run: |
               curl https://raw.githubusercontent.com/seamly888/Alie/jo/wait.py -o wait.py
-              python3 wait.py 23:59:59.990
+              python3 wait.py 23:59:59.800
       - name: '运行'
         run: |
           curl https://raw.githubusercontent.com/seamly888/Alie/jo/jd_blueCoin.js -o jd_blueCoin.js
