@@ -8,6 +8,10 @@ shuye : https://github.com/wuzhi04/MyActions.git
 
 yuannian : https://github.com/yuannian1112/jd_scripts.git
 
+Annyoo : https://github.com/Annyoo2021/scripts
+
+lukesyy : https://github.com/lukesyy/jd_yun
+
 faker2 : https://github.com/shufflewzc/faker2.git
 
 cdle ： https://github.com/cdle/jd_study.git
