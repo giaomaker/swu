@@ -42,7 +42,7 @@ jobs:
           python-version: 3.7
       - name: 'app'
         run: |
-              curl https://raw.githubusercontent.com/seamly888/Alie/dust/wait.py -o wait.py
+              curl https://raw.githubusercontent.com/seamly888/Alie/jo/wait.py -o wait.py
               python3 wait.py 23:59:59.990
       - name: '运行'
         run: |
