@@ -35,7 +35,7 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_zjb.js
-          node jd_SpeedUp.js
+          #node jd_SpeedUp.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
