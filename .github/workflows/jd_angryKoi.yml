@@ -1,4 +1,4 @@
-name: 1愤怒的锦鲤+来客有礼送豆
+name: 1愤怒的锦鲤+赚30元+来客有礼送豆
 
 on:
   workflow_dispatch:
@@ -34,6 +34,7 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
+          node jd_earn30.js
           node jd_angryKoi.js
           node jd_senbeans.js
         env:
