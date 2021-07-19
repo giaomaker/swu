@@ -34,9 +34,8 @@ jobs:
           npm install
       - name: '运行 【app】'
         run: |
-          curl https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy_park.ts -o jd_joy_park.ts
-          ts-node jd_joy_park.ts
           node jd_SplitRedPacket.js
+
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
