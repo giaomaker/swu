@@ -1,4 +1,4 @@
-name: 京东极速版-赚金币+加速提现
+name: 京东极速版-赚金币+京喜签到+加速提现
 
 on:
   workflow_dispatch:
@@ -35,6 +35,7 @@ jobs:
       - name: '运行 【app】'
         run: |
           node jd_zjb.js
+          node jd_jxqd.js
           #node jd_SpeedUp.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
