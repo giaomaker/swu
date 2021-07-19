@@ -70,6 +70,6 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_europeancup.js
-                  #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  SYNCURL: REPOURL+jd_europeancup.js
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
