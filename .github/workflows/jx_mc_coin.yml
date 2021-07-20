@@ -1,4 +1,4 @@
-name: 京喜牧场收金币
+name: 京喜牧场收金币moposmall
 
 on:
   workflow_dispatch:
