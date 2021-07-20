@@ -1,4 +1,4 @@
-name: 1早起福利+早起赢现金+特务
+name: 1早起福利+特务密室+特务星小店+早起赢现金
 
 on:
   workflow_dispatch:
@@ -38,8 +38,10 @@ jobs:
           node jd_goodMorning.js
           #curl https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js -o jd_morningSc.js
           #node jd_morningSc.js 
-          #curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_tw.js
-          #node jd_tw.js
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_tw.js
+          node jd_tw.js
+          curl https://github.com/seamly888/Alie/raw/main/jd_twz-star.js -o jd_twz-star.js
+          node jd_twz-star.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
