@@ -3,7 +3,7 @@ name: 京喜财富岛提现yn
 on:
     workflow_dispatch:
     schedule:
-        - cron: "15 23,7 * * *"
+        - cron: "35 2,7 * * *"
     watch:
         types: [started]
     repository_dispatch:
