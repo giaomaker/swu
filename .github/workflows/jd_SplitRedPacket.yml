@@ -1,4 +1,4 @@
-name: 天降红包
+name: 天降红包yn
 
 on:
     workflow_dispatch:
