@@ -40,7 +40,7 @@ jobs:
           #node jd_morningSc.js 
           curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_tw.js -o jd_tw.js
           node jd_tw.js
-          curl https://github.com/seamly888/Alie/raw/main/jd_twz-star.js -o jd_twz-star.js
+          curl https://raw.githubusercontent.com/seamly888/Alie/main/jd_twz-star.js -o jd_twz-star.js
           node jd_twz-star.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
