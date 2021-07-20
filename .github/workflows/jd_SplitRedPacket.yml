@@ -73,4 +73,4 @@ jobs:
                   SYNCURL: https://raw.githubusercontent.com/seamly888/Alie/yn/jd_SplitRedPacket.js
                   #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-                  EARN30PINS : 775943323_m@q291932576@Kuiym@wdNnCDLQqSPuBrh@Kuiym@jd_amGIYInvknFc@Saiym@jd_lgJchIsakgHu@Jaiym@Taiym59
+                  earn30Pins : 775943323_m@q291932576@Kuiym@wdNnCDLQqSPuBrh@Kuiym@jd_amGIYInvknFc@Saiym@jd_lgJchIsakgHu@Jaiym@Taiym59
